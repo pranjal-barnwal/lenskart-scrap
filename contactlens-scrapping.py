@@ -37,7 +37,7 @@ items = driver.find_elements(By.CLASS_NAME, "AnchorWrapper--1smmibb")
 print(len(items))
 
 # Create a CSV file to write the data
-with open("TEMPO_JIFDIOI.csv", "w", newline="", encoding="utf-8") as csvfile:
+with open("contactlenses.csv", "w", newline="", encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(["Title", "Usage", "Price"])  # Write header row
     print(items)
@@ -47,7 +47,7 @@ with open("TEMPO_JIFDIOI.csv", "w", newline="", encoding="utf-8") as csvfile:
         # Extract title
         title = item.find_element(By.CLASS_NAME, "ProductTitle--13we1dx").text.strip()
 
-        # # Extract Size                                        
+        # # Extract Size
         usage = item.find_element(By.CLASS_NAME, "ProductUsage--gh7a05").text.strip()
 
         # # Extract Price
