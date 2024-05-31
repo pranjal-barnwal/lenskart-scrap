@@ -1,4 +1,4 @@
-![Lenskart Products & Stores Scrapping](https://wikimug.com/wp-content/uploads/2024/02/wikimug-post-pics-2-750x375.png)
+![Lenskart Products & Stores Scrapping: pranjal-barnwal | Pranjal Kumar, Hazaribag Jharkhand](https://wikimug.com/wp-content/uploads/2024/02/wikimug-post-pics-2-750x375.png)
 # Scrapping Lenskart
 
 > We will have to use concept of infinite scroll for scrapping products, since the below products are getting loaded only when we scroll it till there
